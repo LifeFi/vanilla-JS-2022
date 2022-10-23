@@ -8,6 +8,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  color: white;
 }
 
 main {
@@ -21,30 +23,50 @@ main {
   left: 0;
 }
 
-.main-component {
-  width: 500px;
+.user-component {
+  position: fixed;
+  top: 100px;
+  right: 30px;
+  width: 300px;
   height: 45vh;
   text-align: center;
 }
 
-.main-component input {
-  width: 200px;
+.user-component input {
+  width: 275px;
   height: 30px;
   border: none;
-  border-bottom: 2px solid yellow;
-  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom: 5px solid yellow;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 0 10px;
-}
-
-.main-component input::placeholder {
+  font-size: 20px;
   color: white;
 }
 
-.top-right-component {
+#login-form button {
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  color: white;
+  font-size: 20px;
+  margin: 10px 0px;
+  padding: 5px;
+}
+
+.user-component input::placeholder {
+  color: white;
+}
+
+.clock-component {
   position: fixed;
-  top: 10px;
-  right: 10px;
+  bottom: 30px;
+  left: 30px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-Start;
+}
+
+.bg-image-component {
+  height: 90vh;
 }

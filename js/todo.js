@@ -52,3 +52,15 @@ if (savedToDos !== null) {
   toDos = parsedToDos;
   parsedToDos.forEach(paintToDo);
 }
+
+// const HIDDEN_CLASSNAME = "hidden";
+// const USERNAME_KEY = "username";
+// const savedUsername = localStorage.getItem(USERNAME_KEY);
+
+// if (savedUsername === null) {
+//   toDoForm.classList.add(HIDDEN_CLASSNAME);
+//   toDoList.classList.add(HIDDEN_CLASSNAME);
+// } else {
+//   toDoForm.classList.remove(HIDDEN_CLASSNAME);
+//   toDoList.classList.remove(HIDDEN_CLASSNAME);
+// }
